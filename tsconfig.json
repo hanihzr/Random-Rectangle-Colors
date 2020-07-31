@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/client-ui/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/client-ui/tsconfig.spec.json"
+    }
+]
 }
