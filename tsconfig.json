@@ -12,6 +12,12 @@
     },
     {
       "path": "./projects/client-ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-lib/tsconfig.spec.json"
     }
 ]
 }
