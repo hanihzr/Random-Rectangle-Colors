@@ -127,6 +127,15 @@
   dependencies:
     tslib "^2.0.0"
 
+"@angular/cdk@^10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-10.1.1.tgz#aec95fb4d1143d0b82a41c34622453ffbae42872"
+  integrity sha512-Gt9TmqSVxPTmuNkApEuvva25U60WW152r9+vL7ViFgG+297RE7tzUU8ffBwMXZMdtXnrhLKqLv6ZaBhihMM2Kw==
+  dependencies:
+    tslib "^2.0.0"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@~10.0.4":
   version "10.0.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-10.0.4.tgz#5c13500f3135e43b9e6e53534fdfbc283abb83cc"
@@ -207,6 +216,13 @@
   version "10.0.7"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.0.7.tgz#571cbdc5ed213e10aedfdb9d660f4d55c71687a2"
   integrity sha512-xSGPhidaUWLop3j9zPy4ZeO+/rwnusNWvwrDNey4W68lS068AExRXqf3yTuzobqBGdV2swDJaRabzgD7NS8yag==
+  dependencies:
+    tslib "^2.0.0"
+
+"@angular/material@^10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-10.1.1.tgz#5c98bb727bccb8b8656b08ca0259d8d1115062ce"
+  integrity sha512-D9VXwW2ieDUvkQD1VVEX6bxIdCaK6uA6jHpMU2ZLTIQ/EzNRDRwmJbr4rqPhxtHmLMXF+66EBXEjgyV7l91h5g==
   dependencies:
     tslib "^2.0.0"
 
@@ -1052,6 +1068,13 @@
     loader-utils "^1.4.0"
     merge-source-map "^1.1.0"
     schema-utils "^2.6.4"
+
+"@ngrx/store@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-1.2.1.tgz#d8f87059158a8603a614dbdafd747239f3e3fe52"
+  integrity sha1-2PhwWRWKhgOmFNva/XRyOfPj/lI=
+  dependencies:
+    rxjs "^5.0.0-beta.0"
 
 "@ngtools/webpack@10.0.4":
   version "10.0.4"
@@ -6139,6 +6162,11 @@ parse5@4.0.0:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
 
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
+
 parseqs@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/parseqs/-/parseqs-0.0.5.tgz#d5208a3738e46766e291ba2ea173684921a8b89d"
@@ -7226,6 +7254,13 @@ rxjs@6.5.5, rxjs@~6.5.5:
   dependencies:
     tslib "^1.9.0"
 
+rxjs@^5.0.0-beta.0:
+  version "5.5.12"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.12.tgz#6fa61b8a77c3d793dbaf270bee2f43f652d741cc"
+  integrity sha512-xx2itnL5sBbqeeiVgNPVuQQ1nC8Jp2WfNJhXWHmElW9YmrpS9UVnNzhP3EH3HFqexO5Tlp8GhYY+WEcqcVMvGw==
+  dependencies:
+    symbol-observable "1.0.1"
+
 rxjs@^6.5.3:
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
@@ -8019,6 +8054,11 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+symbol-observable@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
+  integrity sha1-g0D8RwLDEi310iKI+IKD9RPT/dQ=
 
 symbol-observable@1.2.0:
   version "1.2.0"
