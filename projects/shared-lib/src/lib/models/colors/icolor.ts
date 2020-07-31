@@ -1,8 +1,8 @@
 import { ITag } from './itag';
 
 export interface IColor {
-  timestamp: number;
+  timestamp?: number;
   hex: string;
-  id: number;
-  tags: ITag[];
+  id?: number;
+  tags?: ITag[];
 }
