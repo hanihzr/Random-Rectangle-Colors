@@ -1,0 +1,38 @@
+.container {
+  padding: 16px;
+  height: calc(100% - 32px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .rectangle {
+    border: 3px solid #2c3e50;
+    width: 400px;
+    height: 200px;
+    border-radius: .7rem;
+    display: flex;
+
+    &[class^="rectangle top-"] {
+      align-items: flex-start;
+    }
+
+    &[class^="rectangle bottom-"] {
+      align-items: flex-end;
+    }
+
+    &[class$="-left"] {
+      justify-content: flex-start;
+    }
+
+    &[class$="-right"] {
+      justify-content: flex-end;
+    }
+
+    &>.circle {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}

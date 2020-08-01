@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { routes } from './routes';
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class RectangleColorsRoutingModule {}
