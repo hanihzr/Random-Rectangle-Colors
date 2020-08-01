@@ -3,14 +3,7 @@ import { NgModule } from '@angular/core';
 
 @NgModule({
   declarations: [],
-  imports: [
-    HttpClientModule,
-    // StoreModule.forRoot({ ...RootReducers }),
-    // EffectsModule.forRoot(RootEffects),
-    // StoreDevtoolsModule.instrument({
-    //   maxAge: 25,
-    // }),
-  ],
+  imports: [HttpClientModule],
   exports: [],
 })
 export class SharedLibModule {}
