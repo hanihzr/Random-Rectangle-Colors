@@ -1,3 +1,5 @@
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { ColorsService } from 'shared-lib';
 
 import { Component, OnInit } from '@angular/core';
@@ -22,21 +24,22 @@ export class RectangleComponent implements OnInit {
   constructor(private colorsService: ColorsService) {}
 
   ngOnInit(): void {
-    this.readColor();
+    this.readColor().subscribe();
   }
 
   move(): void {
-    this.readColor();
-    this.changeAxis();
+    this.readColor().subscribe(() => this.changeAxis());
   }
 
-  private readColor(): void {
+  private readColor(): Observable<void> {
     // No magik here, just reading from server
-    this.colorsService.getColors().subscribe((resp) => {
-      if (resp?.success) {
-        this.color = resp.new_color;
-      }
-    });
+    return this.colorsService.getColors().pipe(
+      map((resp) => {
+        if (resp?.success) {
+          this.color = resp.new_color;
+        }
+      })
+    );
   }
 
   changeAxis(): void {

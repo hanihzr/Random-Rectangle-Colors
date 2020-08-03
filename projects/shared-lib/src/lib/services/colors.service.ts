@@ -15,6 +15,9 @@ export class ColorsService {
   constructor(private http: HttpClient) {}
 
   getColors(): Observable<IRandomColor> {
-    return this.http.get(this.url) as Observable<IRandomColor>;
+    const params = {
+      er: Date.now().toLocaleString(),
+    };
+    return this.http.get(this.url, { params }) as Observable<IRandomColor>;
   }
 }
