@@ -135,15 +135,6 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/cdk@^10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-10.1.1.tgz#aec95fb4d1143d0b82a41c34622453ffbae42872"
-  integrity sha512-Gt9TmqSVxPTmuNkApEuvva25U60WW152r9+vL7ViFgG+297RE7tzUU8ffBwMXZMdtXnrhLKqLv6ZaBhihMM2Kw==
-  dependencies:
-    tslib "^2.0.0"
-  optionalDependencies:
-    parse5 "^5.0.0"
-
 "@angular/cli@~10.0.4":
   version "10.0.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-10.0.4.tgz#5c13500f3135e43b9e6e53534fdfbc283abb83cc"
@@ -224,13 +215,6 @@
   version "10.0.7"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.0.7.tgz#571cbdc5ed213e10aedfdb9d660f4d55c71687a2"
   integrity sha512-xSGPhidaUWLop3j9zPy4ZeO+/rwnusNWvwrDNey4W68lS068AExRXqf3yTuzobqBGdV2swDJaRabzgD7NS8yag==
-  dependencies:
-    tslib "^2.0.0"
-
-"@angular/material@^10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-10.1.1.tgz#5c98bb727bccb8b8656b08ca0259d8d1115062ce"
-  integrity sha512-D9VXwW2ieDUvkQD1VVEX6bxIdCaK6uA6jHpMU2ZLTIQ/EzNRDRwmJbr4rqPhxtHmLMXF+66EBXEjgyV7l91h5g==
   dependencies:
     tslib "^2.0.0"
 
@@ -1076,31 +1060,6 @@
     loader-utils "^1.4.0"
     merge-source-map "^1.1.0"
     schema-utils "^2.6.4"
-
-"@ngrx/data@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/data/-/data-9.2.0.tgz#89da77c0ce9b1cbbe191db56a675bae97845758a"
-  integrity sha512-rs8nCF1/TS3fAGFpWcybenQUyacieuDQ3kA5w4iqLSwaqIV7qMCw0pRJ0PDUalA8hM/KXJAtWeBo38bwIgsLuA==
-
-"@ngrx/effects@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-9.2.0.tgz#155bfcfd528aa993fd19f60f9536385984a80910"
-  integrity sha512-8V09zDIPehGpzgfcgyczelovsVYJvDQhN9wHt37K5A+YCG0CI8nj8FmKokHATwv/S62YqFrOVnr/TZacxpDhBw==
-
-"@ngrx/entity@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/entity/-/entity-9.2.0.tgz#4acdd74edf72f7ab061ca9295ee323d1978a4329"
-  integrity sha512-xSnS4EmksfvIobl2KMpljE1RMYuJGq7j5cCb9TnlsXkEc7cUa0TyGviSsxceSpk9WKtKARPR/AcVrVCESucF6Q==
-
-"@ngrx/store-devtools@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-9.2.0.tgz#298b86b0c4ea483313b67d64a68b2d3376a5a04f"
-  integrity sha512-/FvgcpjO4IvwNFnRVoHGikAvckr6fxKf4NgYoTQ9giI8xavolLvuQUHxzH20legi5dgZz34ii2m2g1Q7OxEV8w==
-
-"@ngrx/store@^9.2.0":
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-9.2.0.tgz#39f663f98b5332b33c8d197be3ab08bafd85bc88"
-  integrity sha512-V8AI3mxbMztVpbZpALkLZYlGkofKcu9GaOCY5e+sZ1VcJ90oxhFjBpnmd6MuVdmhep1XAHALb1B8ZbBFn+xsgQ==
 
 "@ngtools/webpack@10.0.4":
   version "10.0.4"
@@ -6647,11 +6606,6 @@ parse5@4.0.0:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
 
-parse5@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
-  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
-
 parseqs@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/parseqs/-/parseqs-0.0.5.tgz#d5208a3738e46766e291ba2ea173684921a8b89d"
@@ -8406,9 +8360,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.0, ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
